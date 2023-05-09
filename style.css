@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+}
+
+.hr1 {
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 149, 0); */
+    border: 1px solid rgb(255, 149, 0);
+}
+
+body {
+    background-color: rgb(255, 249, 239);
+    font-family: 'Chivo Mono', monospace;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    background-color: black;
+    color: orange;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+    position: sticky;
+    top: 0px;
+}
+
+#logo {
+    width: 20%;
+    text-align: center;
+}
+
+#logoimage {
+    margin: 5px;
+    padding: 2px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#links {
+    width: 60%;
+    
+}
+
+#navlinks {
+    display: flex;
+    list-style-type: none;
+}
+
+#navlinks li{
+    padding: 20px;
+}
+#navlinks a{
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+}
+#navlinks a:hover{
+    color: white;
+    transition: 1s;
+}
+
+#search {
+    width: 20%;
+   /* horizontal center */
+    text-align: center;
+    /* vertical middle */
+    align-items: center;
+}
+#searchbox {
+width: 200px;
+height: 20px;
+border-radius: 20px;
+background-color: orange;
+padding: 5px;
+}
+
+.hr2 {
+    border: 2px solid rgb(209, 252, 193);
+}
+.hr3 {
+    border: 2px solid rgb(227, 118, 1);
+}
+.hr4 {
+    border: 2px solid rgb(182, 249, 186);
+}
+.hr5 {
+    border: 2px solid rgb(244, 167, 3);
+}
+.hr6 {
+    border: 2px solid rgb(244, 167, 3);
+}
+/* Welcome Section */
+#welcome{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* About us starts */
+#aboutus{
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.border1{
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+}
+
+#servicefood{
+    background-color: #fbb969;
+}
+
+#servicecatering{
+    background-color: aliceblue;
+}
+#servicebulk{
+    background-color: #fbb969;
+}
+
+.serviceimg{
+    height: 180px;
+
+    border-radius: 20px;
+    margin: 10px;
+}
+.font1{
+    font-size: 20px;
+    color: rgb(255, 111, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* Clients section */
+#clients{
+    height: 400px;
+}
+/* Contact us section starts */
+
+#contactus{
+    height: 400px;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+/* text-align: center; */
+padding: 15px;
+
+
+}
+.font2{
+    color: #fbb969;
+    font-size: 28px;
+    margin: 10px;
+    text-align: center;
+}
+
+#contactbox{
+    width: 40%;
+    margin: auto;
+}
+#contactbox input, #contactbox textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 18px;
+}
+#contactbox label{
+    margin: 5px;
+    padding: 5px;
+   
+}
+.formgroup{
+    width: 100%;
+}
+#submit1{
+    
+}
+#social{
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    line-height: 150px;
+}
